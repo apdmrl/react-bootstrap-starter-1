@@ -1,10 +1,10 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
-const About = () => {
+const Analysis = () => {
   // page content
-  const pageTitle = 'About'
-  const pageDescription = 'welcome to react bootstrap template'
+  const pageTitle = 'Analysis'
+  const pageDescription = 'Contextual Frequency Analysis'
 
   return (
     <div>
@@ -14,4 +14,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Analysis

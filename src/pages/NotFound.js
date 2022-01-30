@@ -14,7 +14,7 @@ const NotFound = () => {
                 Edit Custom 404 error page <code>src/pages/NotFound.js</code>
               </p>
               <Link to="/">
-                <button className="btn btn-primary">Home Page</button>
+                <button className="btn btn-primary">Analysis Page</button>
               </Link>
             </div>
           </div>

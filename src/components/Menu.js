@@ -9,24 +9,21 @@ const Menu = () => {
           to="/"
           className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
         >
-          Template
+          Contextual Frequency Analysis
         </Link>
         <Nav>
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <Link to="/about" className="nav-link px-2 link-secondary">
-                About
+              <Link to="/contexts" className="nav-link px-2 link-secondary">
+                Contexts
+              </Link>
+            </li>
+            <li>
+              <Link to="/contents" className="nav-link px-2 link-secondary">
+                Contents
               </Link>
             </li>
           </ul>
-
-          <div className="col-md-3 text-end">
-            <Link to="/">
-              <button type="button" className="btn btn-outline-primary me-2">
-                Documentation
-              </button>
-            </Link>
-          </div>
         </Nav>
       </header>
     </Container>
